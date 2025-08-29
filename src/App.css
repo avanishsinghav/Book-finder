@@ -1,0 +1,11 @@
+/* Container styling */
+
+/* Heading styling */
+.book-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* Loading container */
+
+

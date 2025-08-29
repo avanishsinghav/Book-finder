@@ -1,0 +1,35 @@
+.sorting-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 20px;
+  gap: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sorting-label {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.sorting-select {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.sorting-select:hover {
+  border-color: #0077ff;
+  box-shadow: 0 0 8px rgba(0, 119, 255, 0.2);
+}
+
+.sorting-select:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 10px rgba(0, 119, 255, 0.3);
+}

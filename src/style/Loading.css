@@ -1,0 +1,24 @@
+.loading-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0077ff;
+  margin-top: 15px;
+}
+
+.loading-para svg {
+  animation: spin 1s linear infinite;
+  font-size: 1.6rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
