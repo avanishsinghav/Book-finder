@@ -30,6 +30,7 @@ It allows users like Alex (a college student) to search for books, view results,
 
 book-finder/
 ├── public/
+
 │ └── index.html
 ├── src/
 │ ├── components/
