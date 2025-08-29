@@ -28,6 +28,7 @@ It allows users like Alex (a college student) to search for books, view results,
 
 ## 📂 Folder Structure
 
+```
 book-finder/
 ├── public/
 │ └── index.html
@@ -51,3 +52,4 @@ book-finder/
 │ └── index.js
 ├── package.json
 └── README.md
+```
